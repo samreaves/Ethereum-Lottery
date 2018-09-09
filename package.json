@@ -1,0 +1,20 @@
+{
+  "name": "001",
+  "version": "1.0.0",
+  "description": "Lottery using Ethereum Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Sam Reaves <thesamreaves@gmail.com> (http://www.github.com/samreaves)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "6.0.0",
+    "ganache-cli": "^6.0.3",
+    "mocha": "^4.0.1",
+    "nan": "2.11.0",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
